@@ -4,16 +4,16 @@ library gatt_service_numbers;
 
 /// Provides service number information
 class GattServiceNumbers {
-  final Map<int, String> numToString = {
-    0x1800: 'Generic Access',
-    0x1801: 'Generic Attribute',
-    0x180A: 'Device Information',
-    0x180D: 'Heart Rate',
-    0x181E: 'Bond Management Service',
+  final Map<String, String> valueToName= {
+    "1800": 'Generic Access',
+    "1801": 'Generic Attribute',
+    "180A": 'Device Information',
+    "180D": 'Heart Rate',
+    "181E": 'Bond Management Service',
   };
 
   /// Returns string associated wiht serviceNumber
-  String snToString(int serviceNumber) {
-    return numToString[serviceNumber];
+  String getName(String serviceNumber) {
+    return valueToName[serviceNumber];
   }
 }
