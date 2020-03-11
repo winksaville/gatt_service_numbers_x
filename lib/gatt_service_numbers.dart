@@ -9,6 +9,7 @@ class GattServiceNumbers {
     "1801": 'Generic Attribute',
     "180A": 'Device Information',
     "180D": 'Heart Rate',
+    "180F": 'Battery Service',
     "181E": 'Bond Management Service',
   };
 

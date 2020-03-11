@@ -11,6 +11,7 @@ void main() {
     expect(serviceNumber.getName('1801'), 'Generic Attribute');
     expect(serviceNumber.getName('180A'), 'Device Information');
     expect(serviceNumber.getName('180D'), 'Heart Rate');
+    expect(serviceNumber.getName('180F'), 'Battery Service');
     expect(serviceNumber.getName('181E'), 'Bond Management Service');
   });
 }
