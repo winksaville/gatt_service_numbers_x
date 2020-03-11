@@ -1,8 +1,8 @@
 name: gatt_service_numbers
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: A experimental service that has Gatt Service Number information.
+version: 0.1.0
+author: Wink Saville
+homepage: https://github.com/winksaville/gatt_service_numbers_x.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
